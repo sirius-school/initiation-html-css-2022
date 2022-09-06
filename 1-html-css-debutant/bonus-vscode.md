@@ -72,7 +72,7 @@ Nom-de-projet
 ## Tips
 
 - Quand tu sélectionnes une balise, sa jumelle est sélectionnée également. Cela te permet de savoir si elle est bien fermée ou non.
-- L'indentation automatique te permet également de savoir si tu es dans la bonne balise ou non. Si lorsque tu va sà la ligne l'indentation ne te semble pas correcte, c'est probablement que ton code est mal interprété et qu'il y a un soucis quelque part.
+- L'indentation automatique te permet également de savoir si tu es dans la bonne balise ou non. Si lorsque tu va à la ligne l'indentation ne te semble pas correcte, c'est probablement que ton code est mal interprété et qu'il y a un soucis quelque part. Jette un coup d'oeil aux balises précédentes pour voir ce qu'il se passe.
 
 ## Emmet
 
