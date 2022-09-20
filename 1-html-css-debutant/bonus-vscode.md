@@ -12,13 +12,9 @@ VSCode est un outil merveilleux avec pleins de fonctionnalités, même trop par 
   - [Écran d’accueil](#écran-daccueil)
   - [Dossier de confiance](#dossier-de-confiance)
   - [Dossier ouvert](#dossier-ouvert)
-- [Tips](#tips)
-- [Emmet](#emmet)
-  - [Structure HTML](#structure-html)
-  - [Lorem Ipsum](#lorem-ipsum)
-  - [Les listes](#les-listes)
-  - [Contenu, Class et ID, multiplicateur, Attribut](#contenu-class-et-id-multiplicateur-attribut)
-  - [Cheatsheet](#cheatsheet)
+  - [Menu de gauche](#menu-de-gauche)
+  - [Split view](#split-view)
+- [Tips dans l'éditeur](#tips-dans-léditeur)
 - [Extensions](#extensions)
   - [Live Server](#live-server)
   - [Auto Close / Rename Tag](#auto-close--rename-tag)
@@ -31,6 +27,13 @@ VSCode est un outil merveilleux avec pleins de fonctionnalités, même trop par 
   - [`Alt` + curseur](#alt--curseur)
   - [`Alt` + `suppr`](#alt--suppr)
   - [`Ctrl` + `suppr`](#ctrl--suppr)
+  - [`Ctrl` + `f`](#ctrl--f)
+- [Emmet](#emmet)
+  - [Structure HTML](#structure-html)
+  - [Lorem Ipsum](#lorem-ipsum)
+  - [Les listes](#les-listes)
+  - [Contenu, Class et ID, multiplicateur, Attribut](#contenu-class-et-id-multiplicateur-attribut)
+  - [Cheatsheet](#cheatsheet)
 
 ## L'interface
 
@@ -59,70 +62,55 @@ Une fois un dossier ouvert on se retrouve avec l'arborescence de notre dossier s
 <pre>
 Nom-de-projet
   |__ img
-  |   |__ image.png
+  |   |__ fb.png
+  |   |__ logo.png
   |__ css
+  |   |__ global.css
   |   |__ style.css
   |__ js
   |   |__ script.js
   |__ pages
   |   |__ contact.html
+  |   |__ footer.html
+  |   |__ header.html
   |__ index.html
 </pre>
 
-## Tips
+### Menu de gauche
 
+![menu](img/bonus/vscode-screens/menu-left.png)
+
+Vous pouvez retrouver sur le côté gauche un menu qui contient plusieurs panneaux.
+
+![files](img/bonus/vscode-screens/menu-files.png)
+
+- Le premier est la gestion de vos dossiers et fichiers. Vous serez amené à utiliser ce panneau constamment pour passer d'un fichier à un autre.
+
+![search](img/bonus/vscode-screens/menu-search.png)
+
+- Le deuxième est l'outil de recherche global. Il permet de chercher dans tous les fichiers de votre dossier actif. Il est également possible de remplacer toutes les occurrences d'un mot dans vos fichiers. Très pratique!
+
+![plugins](img/bonus/vscode-screens/menu-plugins.png)
+
+- Le cinquième est le panneau qui permet de gérer les extensions installées et d'en trouver des autres. Voyons ça un peu plus loin.
+
+Les autres menus servent notamment à gérer le `versioning` de votre projet ou de lancer des tests pour debugger votre code. Mais nous ne les utiliserons pas.
+
+### Split view
+
+Une fonctionnalité fort appréciable sur VScode surtout lorsque vous n'avez qu'un écran, c'est la possibilité de `split`/séparer les différentes vues. Pour ce faire il suffit d'avoir plusieurs onglets de fichiers ouvert. Ensuite cliquer et glisser un onglet dans un des coins/bords de la fenêtre de VScode pour voir apparaître en transparence l'espace que va prendre le nouvel onglet.
+
+![split-view](img/bonus/vscode-screens/vscode-split.png)
+![splitted-view](img/bonus/vscode-screens/vscode-splitted.png)
+
+## Tips dans l'éditeur
+
+Voici quelques astuces quand tu utilises VSCode. Pour le moment, comme c'est le début ça ne te dit pas encore grand chose. Mais n'hésite pas à revenir les lires quand tu auras commencés tes premières pages.
+
+- Comme dans n'importe quel éditeur de texte, si y a du code souligné, c'est que c'est pas bon! Fait bien attention à ce que VSCode t'indique. Si tu vois un soulignement en vague en dessous d'une de tes balises, c'est probablement qu'il y a un soucis.
+- Les couleurs sont importantes! Quand tu écris du code les **balises** sont dans une couleur, les **attributs** ont une couleur différente, les **valeurs** ont une autre couleur
 - Quand tu sélectionnes une balise, sa jumelle est sélectionnée également. Cela te permet de savoir si elle est bien fermée ou non.
 - L'indentation automatique te permet également de savoir si tu es dans la bonne balise ou non. Si lorsque tu va à la ligne l'indentation ne te semble pas correcte, c'est probablement que ton code est mal interprété et qu'il y a un soucis quelque part. Jette un coup d'oeil aux balises précédentes pour voir ce qu'il se passe.
-
-## Emmet
-
-On en a déjà parlé, il s'agit d'un petit plugin directement intégré à VSCode qui permet de taper du code HTML et CSS beaucoup plus rapidement. Alors, ça demande un petit temps d'apprentissage aussi pour l'utiliser, mais ça simplifie grandement la vie.
-
-Pour pouvoir l'utiliser correctement il faut bien être dans un document HTML ou CSS. Donc pense bien à l'enregistrer.
-
-Ensuite dès qu'on rentre le nom d'une balise on a déjà Emmet qui te propose de créer les deux balises directement, plus besoin de le faire toi même.
-
-Voici quelques exemples:
-
-### Structure HTML
-
-En écrivant juste `!` et en validant avec `enter` tu peux directement créer ton squelette HTML de base.
-
-> :exclamation: Lors d'une mise à jour de VScode il est possible que cette dernière fonctionnalité ai changée. Il faut désormais activer `Emmet: Use Inline Completions` qui est un paramètre à  dans VSCode. Ainsi, lorsque tu écriras du code Emmet, VScode te montrera directement le résultat et il faudra valider avec `Tab`.
-
-![vscode-emmet-inline](./img/03/vscode-emmet-inline.png)
-
-### Lorem Ipsum
-
-Le lorem ipsum est un texte fictif en latin qui est devenu la référence du texte de substitution. C'est à dire un texte que l'on utilise pour remplir nos `<div>`et `<p>`dans le but de pouvoir commencer rapidement à styliser notre page, sans devoir attendre le contenu complet.
-
-Pour l'utiliser il suffit d'écrire `lorem`et de valider avec `enter`. Cela va créer un paragraphe de Lorem Ipsum. Si tu veux plusieurs paragraphes tu peux utiliser la commande suivante `lorem*2`qui du coup te créera 2 paragraphe.
-
-### Les listes
-
-Il est également possible de créer des listes plus rapidement, pour ce faire tu n'a qu'a écrire le type de liste que tu veux (`ul`ou `ol`).
-
-Mais ça va plus loin que ça, il y a moyen de directement écrire le nombre de `li` dont tu as besoin dans ta liste: `ul>li*5`. Ceci va créer une liste avec 5 `<li>`. C'est à ça que sert `>`,c'est pour indiquer la descendance.
-
-Et on peut encore pousser le vice plus loin en demandant directement de nous créer une liste et son contenu: `ul>li{lien $}*5`. Ce qui est entre accolades ici c'est le contenu de ma balise `<li>`.
-
-### Contenu, Class et ID, multiplicateur, Attribut
-
-Comme vu plus haut il y a donc moyen de préciser à Emmet le contenu de notre balise en utilisant les `{}`. Il est également possible de lui demander de compter pour nous le nombre d'élément qu'il crée en utilisant `$`, cela va ajouter un chiffre pour chaque fois qu'il doit répéter l'opération avec `*x`
-
-C'est possible de donner la valeur d'un attribut également en utilisant `[]`. Il suffit d'écrire le nom de l'attribut de notre balise comme dans cet exemple: `a[href="#"]`
-
-Il est également possible de préciser la classe ou l'id de notre élément directement: `div.ma-classe` ou `div#monID`
-
-Du coup on peut combiner le tout: `(div.ma-classe#monID$>p>lorem)*5`. Ici ce qui est en parenthèse va être répéter 5 fois. On a un div avec une classe, un id unique et une balise `<p>` à l'intérieur contenant chacun un paragraphe de Lorem, le tout qui se répète 5 fois. Très pratique!
-
-### Cheatsheet
-
-Bref, vous l'aurez compris, Emmet c'est top quand on apprend à l'utiliser. Alors c'est à vous de faire la démarche, ici je n'ai montré que quelques exemples, mais il y a encore tellement plus.
-
-Voici [un lien vers une cheatsheet](https://docs.emmet.io/cheat-sheet/) et un autre vers [la documentation](https://docs.emmet.io/)
-
-[:arrow_up: Revenir au top](#table-des-matières)
 
 ## Extensions
 
@@ -177,6 +165,62 @@ Ce raccourci permet de supprimer mot par mot.
 ### `Ctrl` + `suppr`
 
 Ce raccourci permet de supprimer toute la ligne où est votre curseur.
+
+### `Ctrl` + `f`
+
+Ce raccourci permet d'afficher la recherche dans le document en cours.
+
+
+## Emmet
+
+On en a déjà parlé, il s'agit d'un petit plugin directement intégré à VSCode qui permet de taper du code HTML et CSS beaucoup plus rapidement. Alors, ça demande un petit temps d'apprentissage aussi pour l'utiliser, mais ça simplifie grandement la vie.
+
+Pour pouvoir l'utiliser correctement il faut bien être dans un document HTML ou CSS. Donc pense bien à l'enregistrer.
+
+Ensuite dès qu'on rentre le nom d'une balise on a déjà Emmet qui te propose de créer les deux balises directement, plus besoin de le faire toi même.
+
+Voici quelques exemples:
+
+### Structure HTML
+
+En écrivant juste `!` et en validant avec `enter` tu peux directement créer ton squelette HTML de base.
+
+> :exclamation: Lors d'une mise à jour de VScode il est possible que cette dernière fonctionnalité ai changée. Il faut désormais activer `Emmet: Use Inline Completions` qui est un paramètre à  dans VSCode. Ainsi, lorsque tu écriras du code Emmet, VScode te montrera directement le résultat et il faudra valider avec `Tab`.
+
+![vscode-emmet-inline](./img/03/vscode-emmet-inline.png)
+
+### Lorem Ipsum
+
+Le lorem ipsum est un texte fictif en latin qui est devenu la référence du texte de substitution. C'est à dire un texte que l'on utilise pour remplir nos `<div>`et `<p>`dans le but de pouvoir commencer rapidement à styliser notre page, sans devoir attendre le contenu complet.
+
+Pour l'utiliser il suffit d'écrire `lorem`et de valider avec `enter`. Cela va créer un paragraphe de Lorem Ipsum. Si tu veux plusieurs paragraphes tu peux utiliser la commande suivante `lorem*2`qui du coup te créera 2 paragraphe.
+
+### Les listes
+
+Il est également possible de créer des listes plus rapidement, pour ce faire tu n'a qu'a écrire le type de liste que tu veux (`ul`ou `ol`).
+
+Mais ça va plus loin que ça, il y a moyen de directement écrire le nombre de `li` dont tu as besoin dans ta liste: `ul>li*5`. Ceci va créer une liste avec 5 `<li>`. C'est à ça que sert `>`,c'est pour indiquer la descendance.
+
+Et on peut encore pousser le vice plus loin en demandant directement de nous créer une liste et son contenu: `ul>li{lien $}*5`. Ce qui est entre accolades ici c'est le contenu de ma balise `<li>`.
+
+### Contenu, Class et ID, multiplicateur, Attribut
+
+Comme vu plus haut il y a donc moyen de préciser à Emmet le contenu de notre balise en utilisant les `{}`. Il est également possible de lui demander de compter pour nous le nombre d'élément qu'il crée en utilisant `$`, cela va ajouter un chiffre pour chaque fois qu'il doit répéter l'opération avec `*x`
+
+C'est possible de donner la valeur d'un attribut également en utilisant `[]`. Il suffit d'écrire le nom de l'attribut de notre balise comme dans cet exemple: `a[href="#"]`
+
+Il est également possible de préciser la classe ou l'id de notre élément directement: `div.ma-classe` ou `div#monID`
+
+Du coup on peut combiner le tout: `(div.ma-classe#monID$>p>lorem)*5`. Ici ce qui est en parenthèse va être répéter 5 fois. On a un div avec une classe, un id unique et une balise `<p>` à l'intérieur contenant chacun un paragraphe de Lorem, le tout qui se répète 5 fois. Très pratique!
+
+### Cheatsheet
+
+Bref, vous l'aurez compris, Emmet c'est top quand on apprend à l'utiliser. Alors c'est à vous de faire la démarche, ici je n'ai montré que quelques exemples, mais il y a encore tellement plus.
+
+Voici [un lien vers une cheatsheet](https://docs.emmet.io/cheat-sheet/) et un autre vers [la documentation](https://docs.emmet.io/)
+
+[:arrow_up: Revenir au top](#table-des-matières)
+
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
