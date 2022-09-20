@@ -170,14 +170,13 @@ Ce raccourci permet de supprimer toute la ligne où est votre curseur.
 
 Ce raccourci permet d'afficher la recherche dans le document en cours.
 
-
 ## Emmet
 
-On en a déjà parlé, il s'agit d'un petit plugin directement intégré à VSCode qui permet de taper du code HTML et CSS beaucoup plus rapidement. Alors, ça demande un petit temps d'apprentissage aussi pour l'utiliser, mais ça simplifie grandement la vie.
+Il s'agit d'un petit plugin directement intégré à VSCode qui permet de taper du code HTML et CSS beaucoup plus rapidement. Alors, ça demande un petit temps d'apprentissage aussi pour l'utiliser, mais ça simplifie grandement la vie.
 
-Pour pouvoir l'utiliser correctement il faut bien être dans un document HTML ou CSS. Donc pense bien à l'enregistrer.
+Pour pouvoir l'utiliser correctement il faut bien être dans un document HTML ou CSS. Donc pense bien à enregistrer ton fichier dans le bon format.
 
-Ensuite dès qu'on rentre le nom d'une balise on a déjà Emmet qui te propose de créer les deux balises directement, plus besoin de le faire toi même.
+Ensuite dès qu'on rentre le nom d'une balise on a déjà Emmet qui te propose de créer les deux balises directement, plus besoin de le faire toi même. Il suffit d'appuyer sur `enter`.
 
 Voici quelques exemples:
 
@@ -218,9 +217,6 @@ Du coup on peut combiner le tout: `(div.ma-classe#monID$>p>lorem)*5`. Ici ce qui
 Bref, vous l'aurez compris, Emmet c'est top quand on apprend à l'utiliser. Alors c'est à vous de faire la démarche, ici je n'ai montré que quelques exemples, mais il y a encore tellement plus.
 
 Voici [un lien vers une cheatsheet](https://docs.emmet.io/cheat-sheet/) et un autre vers [la documentation](https://docs.emmet.io/)
-
-[:arrow_up: Revenir au top](#table-des-matières)
-
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

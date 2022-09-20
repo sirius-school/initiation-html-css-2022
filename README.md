@@ -12,7 +12,7 @@ Bienvenue chez Sirius dans le cours d'Initiation à l'HTML et au CSS. Lors de ce
 
 ## Au programme
 
-Ce cours se découpe en :three: séquences sur une période de :four::five: jours.
+Ce cours se découpe en :two: séquences sur une période de :four::five: jours.
 
 1. [HTML / CSS - niveau débutant :cat:](1-html-css-debutant/README.md) (:two::five: jours)
 2. [HTML / CSS - niveau avancé :fire:](2-html-css-avance/README.md) (:two::zero: jours)
@@ -41,7 +41,11 @@ Voici quelques points de règles à respecter pour que ta formation se passe le 
 
 Tu devras être présent **du lundi au vendredi** de **9h à 16h**.
 
+:exclamation: Exception le **jeudi**, tu peux partir dès **15h**.
+
 Toute absence devra être **justifiée**. Si tu es absent, envoie un email à ton formateur pour le prévenir: jeremy.scala@possibles.org.
+
+En effet, tu seras rémunéré 1€brut de l'heure, donc c'est avantageux pour toi d'être le plus présent possible ou du moins de fournir un justificatif quant à tes absences.
 
 ### Les pauses
 
@@ -51,13 +55,15 @@ Le temps de midi commence à **12h et dure une heure**.
 
 ### Les commodités du PIL
 
-:warning: Le badge qui t'as été remis est nominatif! Si tu le perds tu devras payer pour un nouveau! Donc garde-le précieusement sur toi! C'est lui aussi qui te permet de rentrer dans les bâtiments et de pouvoir profiter des installations.
+:warning: Le badge qui t'as été remis est nominatif! Si tu le perds tu devras **payer 15€** pour un nouveau! Donc garde-le précieusement sur toi! C'est lui aussi qui te permet de rentrer dans les bâtiments et de pouvoir profiter des installations.
+
+Tu peux rentrer dans le bâtiment principal où il y a la cafétéria à partir de 8h. Et tu pourras accéder aux locaux de cours à partir de 8h45.
 
 Tu es autorisé à accéder aux appareils mis à ta disposition dans la réfectoire (four à micro-onde, café, évier,...).
 
 ### Soit poli et courtois, sinon le ban sera pour toi
 
-- Respecte tes condisciples et tous les membres de Sirius.
+- Respecte tes condisciples et tous les membres de Sirius/Monde des Possibles.
 - Si tu as un problème, quel qu'il soit, n'hésite pas à venir en parler à un membre de l'équipe Sirius.
 - **Mets ton téléphone en silencieux!**
 
@@ -121,8 +127,4 @@ Commençons par réaliser une petite présentation avec [Google Slides](https://
 
 ### Charte de classe
 
-Prenons quelques minutes pour écrire sur une feuilles quelques mots-clés par rapport à ce que tu considères comme important au bon déroulement des cours en classe. Par exemple, tu peux dire que tu as besoin de calme ou bien de pouvoir écouter de la musique ou encore de café.
-
-### Petit jeu
-
-Jouons un peu. On va faire un [Gartic Phone](https://garticphone.com/fr)
+Prenons quelques minutes pour écrire sur une feuilles quelques mots-clés par rapport à ce que tu considères comme important au bon déroulement des cours en classe. Par exemple, tu peux dire que tu as besoin de calme ou bien de pouvoir écouter de la musique ou encore d'avoir du café.

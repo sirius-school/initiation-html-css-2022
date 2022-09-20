@@ -1,4 +1,4 @@
-# HTML - CSS - niveau débutant
+# HTML - CSS - niveau débutant :cat:
 
 Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pour 15 jours! On va apprendre les bases de l'HTML et du CSS pour réaliser tes premières pages web !
 
@@ -7,11 +7,10 @@ Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pou
 
 ## Table des matières
 
-- [VSCode, mon amour](bonus-vscode.md)
 - [La boîte à outils de l'intégrateur junior!](bonus-outils.md)
 
-1. [Comprendre le WEB](01-comprendre-web.md)
-2. [Comprendre l'HTML et CSS](02-comprendre-html-css.md)
+1. [Comprendre le WEB, l'HTML et le CSS](01-comprendre-web-html-css.md)
+2. [VSCode](02-vscode.md)
 3. [Théorie - HTML - les bases](03-theorie-html-bases.md)
 4. [Théorie - HTML - balises](04-theorie-html-balises.md)
 5. [Exercices intermédiaires HTML](05-exercices-intermediaires-html.md)

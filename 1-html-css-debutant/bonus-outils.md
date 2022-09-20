@@ -21,6 +21,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 - [MDN - HTML :fr:](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [W3School - HTML :us:](https://www.w3schools.com/html/default.asp)
+- [HTML Reference :us:](https://htmlreference.io/)
 - [Cheatsheet HTML interactive :us:](https://htmlcheatsheet.com/)
 - [MDN - Cheatsheet - HTML :fr:](https://developer.mozilla.org/fr/docs/Learn/HTML/Cheatsheet)
 
@@ -28,6 +29,7 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 - [MDN - CSS :fr:](https://developer.mozilla.org/fr/docs/Learn/CSS)
 - [W3School - CSS :us:](https://www.w3schools.com/css/default.asp)
+- [CSS Reference :us:](https://cssreference.io/)
 - [Cheatsheet CSS interactive :us:](https://htmlcheatsheet.com/css/)
 
 ### JavaScript
@@ -40,7 +42,8 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 - [Kevin Powel :us:](https://www.youtube.com/kepowob)
 - [Design Course - Gary Simmons :us:](https://www.youtube.com/c/DesignCourse)
-- [Le Designer Du Web :fr:](https://www.youtube.com/c/LeDesignerduWeb )
+- [Le Designer Du Web :fr:](https://www.youtube.com/c/LeDesignerduWeb)
+- [Balo :belgium:](https://www.youtube.com/c/BALOPRISONNIER)
 
 ## Les sites outils
 

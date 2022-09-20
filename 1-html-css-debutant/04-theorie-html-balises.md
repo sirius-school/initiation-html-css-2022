@@ -376,10 +376,12 @@ Il existe encore pleins de balises, mais le but de ce premier cours n'est pas de
 
 - Lire la doc de chacune des balises vue dans cette théorie.
 - Manipuler les balises vue, essaye différentes choses.
-- Essaye de trouver comment mettre une vidéo ou du son dans ta page. Ce n'est absolument pas nécessaire pour l'exercice, mais ça te ferra chercher un peu la documentation.
+- Essaye de trouver comment mettre une vidéo ou du son dans ta page. Ce n'est absolument pas nécessaire pour les futures exercices, mais ça te ferra chercher un peu la documentation.
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
 Phew! Ca en fait des nouvelles choses à assimiler. Tout va bien??
+
+Regarde donc ce [Motherfucking Website](https://motherfuckingwebsite.com/). Ce n'est que de l'HTML et il est plutôt explicite. Ce n'est que de l'HTML.
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)

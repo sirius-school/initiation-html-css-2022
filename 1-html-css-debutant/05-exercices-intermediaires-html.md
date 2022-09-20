@@ -4,7 +4,7 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 
 ## :memo: Objectifs
 
-- Réaliser ses premières pages HTML en utilisant les balises vues dans la théorie
+- Réaliser sa première page HTML en utilisant les balises vues dans la théorie
 - Suivre des consignes précises
 
 ## :white_check_mark: Evaluations
