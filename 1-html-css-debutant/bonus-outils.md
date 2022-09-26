@@ -12,6 +12,8 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
   - [JavaScript](#javascript)
 - [Les chaines Youtube intéressantes](#les-chaines-youtube-intéressantes)
 - [Les sites outils](#les-sites-outils)
+  - [Editeur de code](#editeur-de-code)
+  - [Couleurs](#couleurs)
 
 ## La documentation et les cheatsheet
 
@@ -47,4 +49,12 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 
 ## Les sites outils
 
-- [CodePen](https://codepen.io/)
+### Editeur de code
+
+- [CodePen](https://codepen.io/): Pour utiliser un éditeur HTML/CSS/JavaScript en ligne et découvrir des tas d'exemples.
+
+### Couleurs
+
+- [Roue chromatique](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html): Pour retrouver directement une couleur en HSL
+- [Coolors](https://coolors.co/): Choix de palette de couleurs
+- [Adobe Color](https://color.adobe.com/fr/create/): Choix de couleurs

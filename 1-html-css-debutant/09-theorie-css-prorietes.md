@@ -558,7 +558,9 @@ Pour mieux comprendre les positions, voici un lien vers [la documentation de cet
 
 ### Attention
 
-On n'utilise pas `position` (ni `margin` et `padding`) pour placer certains éléments sur notre page, ça sera plutôt réservé à des éléments décoratifs. Il est impensable de placer nos `div` ou nos `img` avec cette propriété. Le positionnement avec cette propriété va souvent demander des valeurs peu précise ou dépendante de la taille de votre écran au moment où vous la choisissez. On utilisera plutôt `flexbox` mais ça sera pour plus tard.
+On n'utilise pas `position` (ni `margin` et `padding`) pour placer nos conteneurs principaux sur notre page, ça sera plutôt réservé à des éléments décoratifs. Il est impensable de placer nos `div` ou nos `img` avec cette propriété, on n'aura pas le contrôle total surtout en responsive. Le positionnement avec cette propriété va souvent demander des valeurs peu précise ou dépendante de la taille de votre écran au moment où vous la choisissez (% ou pixels). On utilisera plutôt `flexbox` mais ça sera pour plus tard.
+
+> :bulb: Voici [une explication](https://www.w3schools.com/css/css_align.asp) sur différentes méthode de positionnement d'un élément, utile dans certains cas.
 
 ## L'auto-complete de VSCode
 

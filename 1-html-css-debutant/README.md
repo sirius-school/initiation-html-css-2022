@@ -22,7 +22,7 @@ Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pou
 11. [Exercice - CSS - Maquette Discord](11-exercice-css-maquette-discord.md)
 12. [Théorie - Pseudo-sélecteur](12-theorie-css-pseudo-selecteurs.md)
 13. [Exercices intermédiaires - CSS - Pseudo-sélecteurs](13-exercices-css-pseudo-selecteurs.md)
-14. [Exercices - CSS - Maquette Pomme](14-exercice-css-maquette-pomme.md)
+14. [Exercices - CSS - Maquette Variations](14-exercice-css-maquette-variations.md)
 15. [Théorie - HTML - Formulaire](15-theorie-html-form.md)
 16. [Exercice - HTML - Formulaire](16-exercice-html-form.md)
 17. [Théorie - CSS - Unités de mesures](17-theorie-css-mesures.md)

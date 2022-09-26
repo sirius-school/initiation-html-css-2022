@@ -156,6 +156,8 @@ Et pour allez encore plus loins on pourrait utiliser les variables CSS.
 
 > Dans cet exemple, on utilise une variable, du coup si on décide de changer notre couleur principale, il suffit de changer la variable et on garde le même effet de hover sur notre bouton.
 
+> :bulb: Voici [un site web](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html) pour retrouver une couleur sur la roue chromatique
+
 [:arrow_up: Revenir au top](#table-des-matières)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
