@@ -43,6 +43,7 @@ Alors, on va faire au plus court, car des propriétés il y en a beaucoup... vra
   - [position: static](#position-static)
   - [position: fixed](#position-fixed)
   - [position: absolute et relative](#position-absolute-et-relative)
+  - [Attention](#attention)
 - [L'auto-complete de VSCode](#lauto-complete-de-vscode)
 
 ## Typographie
@@ -59,7 +60,7 @@ Cette propriété définit la famille de police d'écriture à utiliser. Dans ce
 
 Voici une liste des polices dites "safe" à utiliser sur vos pages web: [https://www.cssfontstack.com/]
 
-> :bulb: Mettez les liens dont on vous parle en favoris sur votre navigateur pour pouvoir les consulter plus tard en cas de besoin
+> :bulb: Mettez les liens dont on vous parle en favoris sur votre navigateur pour pouvoir les consulter plus tard en cas de besoin.
 
 Il est également possible d'utiliser les [polices Google](https://fonts.google.com/), qui sont très nombreuses. Les intégrer n'est pas très compliqué, on verra cela plus tard, mais si vous voulez essayer, n'hésitez pas!
 
@@ -314,9 +315,11 @@ body{
 
 ### Inline et block
 
-Sans CSS, les éléments d'un block prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
+Sans CSS, les éléments en `display:block;` prennent toute la largeur de leur parent et sont suivis d'un retour à la ligne (body, html, p, div,...)
 
-Les éléments inline (span, a, strong, img,...) prennent la largeur de leur contenu et ne sont pas suivis d'un retour à la ligne.
+Les éléments en `display:inline;` (span, a, strong, img,...) prennent la largeur et hauteur de leur contenu et ne sont pas suivis d'un retour à la ligne.
+
+Les éléments en inline-block peuvent prendre une hauteur spécifique contrairement aux éléments en `display:inline;`
 
 ![inline-block](img/09/inline-block.png)
 
@@ -552,6 +555,10 @@ Un élément se comporte de la même manière que avec static. On peut se servir
 Pour mieux comprendre les positions, voici un lien vers [la documentation de cette balise sur W3School](https://www.w3schools.com/css/css_positioning.asp). Il y a pleins d'exemples.
 
 [:arrow_up: Revenir au top](#table-des-matières)
+
+### Attention
+
+On n'utilise pas `position` (ni `margin` et `padding`) pour placer certains éléments sur notre page, ça sera plutôt réservé à des éléments décoratifs. Il est impensable de placer nos `div` ou nos `img` avec cette propriété. Le positionnement avec cette propriété va souvent demander des valeurs peu précise ou dépendante de la taille de votre écran au moment où vous la choisissez. On utilisera plutôt `flexbox` mais ça sera pour plus tard.
 
 ## L'auto-complete de VSCode
 

@@ -1,12 +1,25 @@
-# Exercices CSS - Le CSS c'est magique - Maquette Discord
+# Maquette Discord
 
 Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu vas devoir réaliser la page ci-dessous sans que je te donnes toutes les étapes.
+
+## :memo: Objectifs
+
+- Réaliser tes premières pages de style CSS
+- Suivre des consignes précises
+- Appliquer un style CSS en respectant une maquette donné
+- Apprendre à se débrouiller en allant lire la théorie vue ou la documentation
+
+## :white_check_mark: Evaluations
+
+- Respect des consignes
+- La syntaxe est correcte
+- L'indentation est correcte
 
 ## Mise en place
 
 1. Copie et colle le code HTML fournit plus bas dans un nouveau fichier HTML.
 2. Crée une nouvelle feuille de style et lie-là à ton fichier HTML.
-3. Affiche la page dans ton navigateur pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
+3. Affiche la page dans ton navigateur (avec Live Server) pour voir le résultat. Tous les éléments sont là mais rien n'est mis en place.
 4. Regarde le screenshot plus bas et tente de reproduire le même style.
 5. Je te fournis plus bas le code HTML, les couleurs utilisées, quelques indications de taille et le code CSS avec seulement les sélecteurs.
 6. Il n'y a pas qu'une bonne méthode, si tu veux utiliser tes propres sélecteurs, tu peux!
@@ -84,6 +97,8 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 - Le footer doit être positionné de manière **fixe** en bas de page.
 
 ## CSS
+
+N'oublie pas, ceci sont les sélecteurs que j'ai utilisé mais tu peux sans problème tenter de réaliser l'exercice sans en prendre compte et choisir tes propres sélecteurs si tu te sens à l'aise.
 
 ```css
 body{

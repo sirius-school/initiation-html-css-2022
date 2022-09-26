@@ -20,6 +20,7 @@ Prêt à découvrir le CSS alors?
   - [Externe aux pages](#externe-aux-pages)
 - [La syntaxe](#la-syntaxe)
   - [Les commentaires en CSS](#les-commentaires-en-css)
+- [Les outils de développement](#les-outils-de-développement)
 
 ## Quelques infos pratiques
 
@@ -103,5 +104,9 @@ h1{
 ```
 
 [:arrow_up: Revenir au top](#table-des-matières)
+
+## Les outils de développement
+
+Il est important de savoir utilisé les outils de développement de votre navigateur, souvent accessible en faisant un clic droit sur notre page et en cliquant sur "Inspecter". Cela ouvre un panneau qui nous seras bien utile pour essayer des propriétés CSS sans devoir revenir dans notre code à chaque modifications.
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)

@@ -4,24 +4,22 @@
 <!-- omit in toc -->
 ## Table des matières
 
-- [Le sélecteur de balises HTML](#le-sélecteur-de-balises-html)
-- [Enfant et descendance](#enfant-et-descendance)
-  - [Parent et ancêtre](#parent-et-ancêtre)
-- [Sélecteur de hiérarchie](#sélecteur-de-hiérarchie)
+- [Le sélecteur de type](#le-sélecteur-de-type)
+- [Le sélecteur de descendance](#le-sélecteur-de-descendance)
 - [Sélecteur de groupe](#sélecteur-de-groupe)
 - [Sélecteur de classe](#sélecteur-de-classe)
   - [Qu'est-ce qu'une classe](#quest-ce-quune-classe)
 - [L'identifiant (id)](#lidentifiant-id)
 - [On mélange tout](#on-mélange-tout)
 - [Espace](#espace)
-- [Le sélecteur de tout](#le-sélecteur-de-tout)
+- [Le sélecteur universel](#le-sélecteur-universel)
 - [Combinateur de voisin direct](#combinateur-de-voisin-direct)
 - [Sélecteurs de voisins généraux](#sélecteurs-de-voisins-généraux)
 - [Sélecteurs enfant](#sélecteurs-enfant)
 - [Convention de nommage](#convention-de-nommage)
 - [Pour finir](#pour-finir)
 
-## Le sélecteur de balises HTML
+## Le sélecteur de type
 
 Vous pouvez sélectionner n'importe quel élément/balise HTML et lui appliquer un style, tous les éléments de la page seront impacté.
 
@@ -31,36 +29,13 @@ p{
 }
 ```
 
-## Enfant et descendance
-
-Prenez en compte le bout de code suivant pour les explications qui vont suivre:
+## Le sélecteur de descendance
 
 ```html
-<div>
-  <h1>Mes compétences</h1>
-  <p>Je possède de nombreuses compétences en développement web.
-    <a href="#">Mon portfolio</a>
-  </p>
-</div>
+<p>Cliquez <a>ici</a> pour accéder au site</p>
 ```
 
-`<h1>` et `<p>` sont des enfants de `<div>`.
-
-`<a>` est un descendant de `<p>`
-
-### Parent et ancêtre
-
-`<div>` est parent de `<h1>` et `<p>`
-
-`<p>` est parent de `<a>`
-
-`<div>` est l'ancêtre de `<a>`
-
-Ces notions de parentés vont permettre de faire de sélection plus précise dans notre CSS.
-
-## Sélecteur de hiérarchie
-
-Pour sélectionner `<a>` descendant de `<p>` nous allons indiquer le chemin en séparant les élements par un espace:
+Pour sélectionner `<a>` descendant de `<p>` nous allons indiquer le chemin en séparant les éléments par un espace:
 
 ```css
 p a { ... }
@@ -146,25 +121,37 @@ p#monId.maClasse { ... }
 
 ## Espace
 
-Si on ne met pas d'espace entre nos sélecteurs, cela signifie que toutes les conditions doivent être vraies. 
+Si on ne met pas d'espace entre nos sélecteurs, cela signifie que toutes les conditions doivent être vraies pour l'élément.
 
 ```css
 p.important { ... }
 ```
 
+```html
+<p class="important">Est sélectionné</p>
+<p>N'est pas sélectionné</p>
+<h1 class="important">N'est pas sélectionné</h1>
+```
+
 > Dans l'exemple au dessus on ciblera tous les **paragraphes** qui ont une classe **important**
 
-Si on met un espace, on cible la hiérarchie. 
+Si on met un espace, on cible la hiérarchie et du coup c'est le dernier sélecteur qu'on cible.
 
 ```css
 p .important { ... }
+```
+
+```html
+<p class="important">N'est sélectionné</p>
+<p><span class="important">Est pas sélectionné</span></p>
+<p><span>N'est pas sélectionné</span></p>
 ```
 
 > Dans l'exemple au dessus on ciblera toutes les classes **important** qui ont sont descendants d'un paragraphe
 
 Voyez comme un simple espace peut faire ou défaire votre page. Soyez attentif  et utilisez l'inspecteur de votre navigateur pour cibler plus facilement le problème.
 
-## Le sélecteur de tout
+## Le sélecteur universel
 
 Pour sélectionner l'entièreté de notre page on peut utiliser `*`
 
@@ -182,7 +169,7 @@ p * {...}
 
 ## Combinateur de voisin direct
 
-Celui-ci est un peu plus compliqué, il permet de cibler un voisin direct d'un autre élément.
+Le combinateur `+` est un peu plus compliqué, il permet de cibler un voisin direct d'un autre élément.
 
 ```css
 /* css */
@@ -199,7 +186,7 @@ p + .intro {...}
 
 ## Sélecteurs de voisins généraux
 
-Le combinateur ~ permet de séparer deux sélecteurs et de cibler un élément si celui-ci correspond au second sélecteur et est précédé (mais pas forcément voisin immédiat) d'un autre élément correspondant au premier sélecteur qui partage le même parent. Les deux éléments sont des fils d'un même parent Element, voisins immédiats ou pas.
+Le combinateur `~` permet de séparer deux sélecteurs et de cibler un élément si celui-ci correspond au second sélecteur et est précédé (mais pas forcément voisin immédiat) d'un autre élément correspondant au premier sélecteur qui partage le même parent. Les deux éléments sont des fils d'un même parent Element, voisins immédiats ou pas.
 
 ```css
 /* css */
@@ -218,7 +205,7 @@ p ~ span {color: red;}
 
 ## Sélecteurs enfant
 
-Le combinateur > sépare deux sélecteurs et cible seulement les éléments correspondant au second sélecteur qui sont des enfants directs des éléments ciblés par le premier sélecteur.
+Le combinateur `>` sépare deux sélecteurs et cible seulement les éléments correspondant au second sélecteur qui sont des enfants directs des éléments ciblés par le premier sélecteur.
 
 
 ```css
@@ -252,7 +239,7 @@ Pas si compliqué, n'est-ce pas??
 
 > :video_game: Petit jeu sympa pour s'entraîner aux sélecteurs: [http://flukeout.github.io/](http://flukeout.github.io/)
 
-Il reste un ""tout petit"" sujet à abordé pour que tu sois fin prêt à te lancer dans le vase monde du CSS: [les propriétés](09-theorie-css-prorietes.md)
+Il reste un ""tout petit"" sujet à abordé pour que tu sois fin prêt à te lancer dans le vaste monde du CSS: [les propriétés](09-theorie-css-prorietes.md)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

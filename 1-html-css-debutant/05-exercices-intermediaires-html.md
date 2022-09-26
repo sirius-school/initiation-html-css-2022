@@ -42,7 +42,7 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 
 ## Exercice 1-5
 
-1. Mets quelques mots en évidence dans tes listes avec les balises `em`, `strong`
+1. Mets quelques mots en évidence dans tes listes avec les balises `em`, `strong` ou place des `span` qui serviront dans un future exercice et donne leurs une `class` qui a du sens.
 2. Mets une `image` en dessous de ta page.
 3. Fais en sorte que quand on clique sur ton image on arrive sur le site de Google.
 
