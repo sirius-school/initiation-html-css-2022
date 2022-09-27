@@ -14,7 +14,27 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 - La syntaxe est correcte
 - L'indentation est correcte
 
+## Exercice 0
+
+Avant de te lancer, si tu veux tu peux revoir ce dont on a déjà parlé dans le cours en réalisant [les exercices sur W3School](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1). 
+
+Sujets déjà abordés (correspondant aux sections des exercices sur W3School):
+- Attributes
+- Headings
+- Paragraphs
+- Comments
+- Links
+- Images
+- Tables
+- Lists
+- Classes
+- ID
+
+> :exclamation: Il y a sûrement des réponses que tu ne trouveras pas car nous ne l'avons pas spécialement vu dans le cours. Mais tu peux retrouver un lien vers la documentation du sujet concerné si tu veux essayer de trouver par toi même. N'hésite pas à poser des questions!
+
 ## Exercice 1-1
+
+Il est temps de réaliser ta première page. Suis bien ce pas-à-pas. 
 
 1. Ouvre VSCode
 2. Crée un nouveau document `HTML` et nomme le `exercice-1.html`.
