@@ -84,6 +84,11 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 - Titre: #ff8906
 - Fond du bas de page: #e53170
 
+## Font
+
+- La police d'écriture pour toute la maquette est **Verdana**
+- Les titres sont en majuscules
+
 ## Tailles
 
 - le logo fait 100px de large.

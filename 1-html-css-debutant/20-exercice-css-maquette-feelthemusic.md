@@ -53,7 +53,8 @@ Tu peux retrouver les images et logos nécessaire à la réalisation de cet exer
 - Le fond des inputs: #2F3038
 - Le fond du footer: #202027
 - La couleur d'accent: #BC3A80
-- La couleur du bouton du formulaire: #1867A7 
+- La couleur du bouton du formulaire: #1867A7
+
 ## La Google font
 
 Pour reproduire la maquette il te faudra la police d'écriture `Poppins` pour ce faire, il suffit de l'importer via Google Font.
