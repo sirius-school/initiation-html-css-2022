@@ -1,6 +1,6 @@
 # HTML - CSS - niveau débutant :cat:
 
-Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pour 15 jours! On va apprendre les bases de l'HTML et du CSS pour réaliser tes premières pages web !
+Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pour 25 jours! On va apprendre les bases de l'HTML et du CSS pour réaliser tes premières pages web !
 
 :calendar: **Durée:** 25 jours
 :bar_chart: **Niveau:** Débutant
