@@ -50,7 +50,7 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
 <body>
   <header>
     <div class="container">
-      <img src="https://raw.githubusercontent.com/sirius-school/metiers-numeriques/main/1-html-css-debutant/assets/discord/logo-discord.png" alt="logo-discord">
+      <img src="https://github.com/sirius-school/initiation-html-css-2022/tree/main/1-html-css-debutant/assets/discord/logo-discord.png" alt="logo-discord">
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -67,7 +67,7 @@ Il est temps de mettre en pratique tout ce qu'on a vu jusqu'à maintenant. Tu va
   </section>
   <section>
     <h2>Téléchargez-le!</h2>
-    <img src="https://raw.githubusercontent.com/sirius-school/metiers-numeriques/105398fc1ba6231e054fb25a327131a6acd8f539/1-html-css-debutant/assets/discord/illu-discord.svg" alt="">
+    <img src="https://github.com/sirius-school/initiation-html-css-2022/tree/main/1-html-css-debutant/assets/discord/illu-discord.svg" alt="">
   </section>
   <footer>
     <div>Mon premier site web qu'avec du HTML et CSS simple</div>
