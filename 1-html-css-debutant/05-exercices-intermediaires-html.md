@@ -16,9 +16,10 @@ Voici quelques exercices simples pour apprendre à manipuler un peu toutes les b
 
 ## Exercice 0
 
-Avant de te lancer, si tu veux tu peux revoir ce dont on a déjà parlé dans le cours en réalisant [les exercices sur W3School](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1). 
+Avant de te lancer, si tu veux tu peux revoir ce dont on a déjà parlé dans le cours en réalisant [les exercices sur W3School](https://www.w3schools.com/html/exercise.asp?filename=exercise_html_attributes1).
 
 Sujets déjà abordés (correspondant aux sections des exercices sur W3School):
+
 - Attributes
 - Headings
 - Paragraphs
