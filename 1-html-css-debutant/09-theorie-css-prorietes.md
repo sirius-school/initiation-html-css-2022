@@ -30,6 +30,8 @@ Alors, on va faire au plus court, car des propriétés il y en a beaucoup... vra
   - [Inline et block](#inline-et-block)
   - [width & height (max & min)](#width--height-max--min)
   - [margin & padding](#margin--padding)
+  - [Calculer une largeur avec des marges](#calculer-une-largeur-avec-des-marges)
+  - [Centrer horizontalement grâce aux margin](#centrer-horizontalement-grâce-aux-margin)
 - [Display](#display)
   - [display: block](#display-block)
   - [display: inline](#display-inline)
@@ -38,6 +40,7 @@ Alors, on va faire au plus court, car des propriétés il y en a beaucoup... vra
 - [Positionnement](#positionnement)
   - [float](#float)
   - [clear](#clear)
+  - [Créer un affichage en colones](#créer-un-affichage-en-colones)
   - [Z-index](#z-index)
 - [Position](#position)
   - [position: static](#position-static)
@@ -379,6 +382,55 @@ Ce qu'il faut retenir:
 - Par défaut la valeur s'applique sur chaque côté (top, right, bottom, left) mais il est possible de préciser une valeur différente pour chaque côté.
 - Peut s'écrire en une seule ligne (top, right, bottom, left)
 
+### Calculer une largeur avec des marges
+
+Imaginons que vous placer deux colones côte à côte (grâce à **float**, que l'on verra plus bas) et que celles-ci sont en **width: 50%;**, cela va les placer l'une contre l'autre. La logique voudrait de rajouter une petite **margin** de chaque côté histoire de ne pas se retrouver avec deux colones complètement collée l'une à l'autre, mais en faisant cela mon élément crée un décalage horizontale ou le float ne fonctionne plus. Cela est dû au fait que la **width** correspond à la largeur du contenu sans les marges. Du coup mon élément est plus large que 50%, il est plus large d'autant de pixel que j'ai inséré dans mes margins. Du coup, au lieu d'essayer de rectifier le soucis en changeant le pourcentage, on peut demander à notre CSS de calculer la valeur exacte. Pour cela on utilise la fonction **calc()**
+
+```html
+<div class="row">
+  <div class="column"><!-->Content<--></div>
+  <div class="column"><!-->Content<--></div>
+</div>
+```
+
+```css
+/* CSS */
+.column{
+    float: left;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+
+}
+.row {
+    clear: both;
+}
+```
+
+> :exclamation: Il est important de bien mettre un espace entre les valeurs et les opérateurs dans notre fonction **calc()**
+
+### Centrer horizontalement grâce aux margin
+
+Il est possible d'utiliser la valeur **auto** sur les margins horizontale pour centrer un élément à l'intérieur de son parent. Cela va calculer automatiquement la meilleure valeur à insérer des deux côtés, cette valeur sera identique à gauche et à droite.
+
+```html
+<!---> HTML <-->
+<body>
+  <div class="center">
+    <p>Coucou</p>
+  </div>
+</body>
+```
+
+```css
+/* CSS */
+body{width: 100%}
+.center{
+  margin: 0 auto;
+}
+```
+
+> :question: On verra plus tard que l'on peut utiliser une autre propriété pour centrer nos éléments. Mais ne nous emballons pas.
+
 [:arrow_up: Revenir au top](#table-des-matières)
 
 ## Display
@@ -466,6 +518,30 @@ Permet de placer un contenu en dehors du "flux" de la page et le reste des block
 Permet d'empêcher le contournement des blocs flottants. Prends **left**, **right** ou **both** comme valeur.
 
 ![un exemple de float et clear](img/09/float&clear.png)
+
+### Créer un affichage en colones
+
+Exemple de 2 colones
+
+```html
+<div class="row">
+  <div class="column"><!-->Content<--></div>
+  <div class="column"><!-->Content<--></div>
+</div>
+```
+
+```css
+/* CSS */
+.column{
+    float: left;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+
+}
+.row {
+    clear: both;
+}
+```
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
