@@ -17,7 +17,8 @@ VSCode est un outil merveilleux avec pleins de fonctionnalités, même trop par 
 - [Tips dans l'éditeur](#tips-dans-léditeur)
 - [Extensions](#extensions)
   - [Live Server](#live-server)
-  - [Auto Close / Rename Tag](#auto-close--rename-tag)
+  - [Auto Rename Tag](#auto-rename-tag)
+  - [Bearded Icons & Theme](#bearded-icons--theme)
   - [Le reste ?](#le-reste-)
 - [Raccourcis](#raccourcis)
   - [Les flèches](#les-flèches)
@@ -107,16 +108,14 @@ Une fonctionnalité fort appréciable sur VScode surtout lorsque vous n'avez qu'
 
 Voici quelques astuces quand tu utilises VSCode. Pour le moment, comme c'est le début ça ne te dit pas encore grand chose. Mais n'hésite pas à revenir les lires quand tu auras commencés tes premières pages.
 
-- Comme dans n'importe quel éditeur de texte, si y a du code souligné, c'est que c'est pas bon! Fait bien attention à ce que VSCode t'indique. Si tu vois un soulignement en vague en dessous d'une de tes balises, c'est probablement qu'il y a un soucis.
-- Les couleurs sont importantes! Quand tu écris du code les **balises** sont dans une couleur, les **attributs** ont une couleur différente, les **valeurs** ont une autre couleur
+- Comme dans n'importe quel éditeur de texte, si y a du code souligné, c'est que c'est pas bon! Fait bien attention à ce que VSCode t'indique. Si tu vois un soulignement en vague en dessous d'une de tes balises, c'est probablement qu'il y a un soucis. Relis le code qui précède et regarde si il n'y a pas un soucis de balise non-fermée, un point-virgule manquant ou une faute de frappe.
+- Les couleurs sont importantes! Quand tu écris du code les **balises** sont dans une couleur, les **attributs** ont une couleur différente, les **valeurs** ont une autre couleur. Si tu écris un élément de code et qu'il ne prend pas la même couleur, c'est probablement que VSCode ne comprend pas ton code correctement. Relis le code qui précède et regarde si il n'y a pas un soucis de balise non-fermée, un point-virgule manquant ou une faute de frappe.
 - Quand tu sélectionnes une balise, sa jumelle est sélectionnée également. Cela te permet de savoir si elle est bien fermée ou non.
 - L'indentation automatique te permet également de savoir si tu es dans la bonne balise ou non. Si lorsque tu va à la ligne l'indentation ne te semble pas correcte, c'est probablement que ton code est mal interprété et qu'il y a un soucis quelque part. Jette un coup d'oeil aux balises précédentes pour voir ce qu'il se passe.
 
 ## Extensions
 
 Vous pouvez personnaliser votre expérience avec VSCode au fur et à mesure de votre apprentissage et de votre carrière grâce aux extensions. Ces petits bout de code qui vont venir vous filer un coup de main pour écrire votre code ou modifier le comportement de VSCode.
-
-Normalement sur votre machine, vous avez déjà quelques extensions installées. Nous n'en verrons que l'une ou l'autre.
 
 ### Live Server
 
@@ -126,13 +125,30 @@ Pour utiliser Live Server, il suffit d'ouvrir non pas un fichier avec VSCode, ma
 
 ![live-server](img/bonus/live-server.png)
 
-### Auto Close / Rename Tag
+[:floppy_disk: Installer Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-Une petite extension qui va vous faciliter la vie. Celles-ci vont, comme leurs noms l'indiquent, fermer automatiquement et renommer vos balises.
+### Auto Rename Tag
+
+Une petite extension qui va vous faciliter la vie. Celle-ci va, comme son nom l'indique, renommer la balise correspondante à celle que vous venez de modifier. Pratique!
+
+[:floppy_disk: Installer Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+
+### Bearded Icons & Theme
+
+![bearded-icons](https://beardedbear.gallerycdn.vsassets.io/extensions/beardedbear/beardedicons/1.1.0/1663776059876/Microsoft.VisualStudio.Services.Icons.Default)
+![bearded-theme](https://beardedbear.gallerycdn.vsassets.io/extensions/beardedbear/beardedtheme/7.4.0/1663525046452/Microsoft.VisualStudio.Services.Icons.Default)
+
+Une petite extension visuelle pour changer les icônes et l'apparence de vos fichiers et dossier dans l'explorateur de fichiers ainsi que le style complet de l'éditeur.
+
+[:floppy_disk: Installer Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)
+
+[:floppy_disk: Installer Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme)
 
 ### Le reste ?  
 
-Il y a évidement des centaines, des milliers d'extensions. Vous pouvez par exemple installer des thèmes pour votre logiciel ou d'autres extensions qui gère la mise en forme du code.
+Il y a évidement des centaines, des milliers d'extensions. Vous pouvez par exemple installer des extensions qui gère la mise en forme du code (Prettier) ou des aides pour écrire votre code JavaScript, Python, C++,...
+
+> :exclamation: Ne pas installer **trop** d'extensions au risque parfois d'avoir des incompatibilités. N'installer que ce dont vous avez besoin.
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
