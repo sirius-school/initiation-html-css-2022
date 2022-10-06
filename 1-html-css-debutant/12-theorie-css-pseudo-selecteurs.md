@@ -44,7 +44,7 @@ a:visited {color: #00FF00;}
 /* survol avec le souris */
 a:hover {color: #FF00FF;}
 
-/* lien sélectionné */
+/* lien sélectionné cliqué */
 a:active {color: #0000FF;} 
 ```
 
@@ -54,6 +54,8 @@ Ces propriétés CSS vont permettre de modifier le comportement par défaut des 
 - **visisted**: permet de gérer le style des liens quand le visiteur à déjà cliqué dessus.
 - **hover**: permet de gérer le style des liens lorsqu'on survole ce dernier avec le curseur de la souris.
 - **active**: permet de gérer le style des liens quand ils sont cliqués.
+
+> :bulb: Afin que la mise en forme s'applique au mieux, la règle :link doit être placée avant les autres : :link — :visited — :hover — :active. La pseudo-classe :focus est habituellement placée juste avant ou juste après :hover, en fonction de l'effet désiré.
 
 ### Focus
 
