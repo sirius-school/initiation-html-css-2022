@@ -21,7 +21,8 @@ Voici encore un exercice dans lequel tu vas devoir mettre tes compétences à l'
 2. Essaye de créer la structure HTML en te basant sur les screenshots plus bas.
 3. Ajoute un fichier CSS `variant01.css` et reproduis le même style que sur les screenshots. Lâche toi pour les couleurs.
 4. Utilise [Coolors](https://coolors.co/) ou [Adobe Color](https://color.adobe.com/fr/create/color-wheel) pour choisir des couleurs qui vont bien ensemble.
-5. Réalise **2 variations CSS minimum** du même fichier HTML.
+5. Change également la taille de certains élément pour proposer une autre mise en page des mêmes éléments.
+6. Réalise **2 variations CSS minimum** du même fichier HTML.
 
 ## Screenshot
 

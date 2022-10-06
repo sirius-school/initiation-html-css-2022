@@ -4,26 +4,38 @@
 
 Reprenez vos exercices sur les sélecteurs avec [CSS Diner](https://flukeout.github.io/). Essayez d'accomplir les niveaux 15 à 24 si ce n'est pas déjà fait. Il y a des sélecteurs que l'on a pas vu, essayer de résoudre les niveaux en lisant la théorie.
 
+## :memo: Objectifs
+
+- Utiliser les pseudos sélecteurs
+- Suivre des consignes précises
+- Apprendre à se débrouiller en allant lire la théorie vue ou la documentation
+
+## :white_check_mark: Evaluations
+
+- Respect des consignes
+- La syntaxe est correcte
+- L'indentation est correcte
+
 ## Exercice 1
 
-Créez une nouvelle page `exercices-pseudo-selecteurs.html` et liez-lui une feuille de style `styles.css`
+Crée une nouvelle page `exercices-pseudo-selecteurs.html` et lie-lui une feuille de style `styles.css`
 
-Créez des liens et styliser-les en suivant les instructions suivantes:
+Crée des liens et styliser-les en suivant les instructions suivantes:
 
-- Créez 5 liens vers vos 5 sites préférés
-- Chaque lien doit avoir comme couleur par défaut une couleur prédominante/symbolisant votre site (youtube=rouge, facebook=bleu,...)
+- Crée 5 liens vers tes 5 sites préférés
+- Chaque lien doit avoir comme couleur par défaut une couleur prédominante/symbolisant ton site (youtube=rouge, facebook=bleu,...)
 - Chaque lien doit ensuite avoir un survol de couleur plus foncé et les lettres doivent apparaître toute en majuscules au survol également.
 - Chaque lien doit avoir un contenu qui s'affiche avant et après. Ce contenu doit être ">"(devant) et "<"(derrière)
 
 ## Exercice 2
 
-- Copiez le code du tableau ci-dessous dans votre page.
-- Faites en sorte que le tableau prenne toute la largeur
-- Ajouter une bordure de `1px` de la couleur de votre choix sur les TableData et TableHeader. Mettez également un padding de `8px` à l'intérieur des cellules.
-- Sélectionnez les TableRow pair et ajoutez leurs un fond de couleur.
-- Faites de même pour les TableRow impair. Les deux couleurs doivent être suffisamment différentes pour distinguer chaque rangées.
-- Sélectionnez les TableRow et ajoutez un effet de survol qui change légèrement la couleur de fond
-- Sélectionnez les TableHeader et mettez un padding en haut et en bas de `12px`. Changez la couleur du fond.
+- Copie le code du tableau ci-dessous dans ta page.
+- Fait en sorte que le tableau prenne toute la largeur de ta page.
+- Ajoute une bordure de `1px` de la couleur de ton choix sur les `TableData` et `TableHeader`. Mets également un padding de `8px` à l'intérieur des cellules.
+- Sélectionne les TableRow pair et ajoute leurs un fond de couleur.
+- Fait de même pour les TableRow impair. Les deux couleurs doivent être suffisamment différentes pour distinguer chaque rangées.
+- Sélectionne les TableRow et ajoute un effet de survol qui change légèrement la couleur de fond
+- Sélectionne les TableHeader et mets un padding en haut et en bas de `12px`. Change la couleur du fond.
 
 ```html
 <table id="gameOfTheYear">
@@ -85,14 +97,14 @@ Créez des liens et styliser-les en suivant les instructions suivantes:
 </table>
 ```
 
-> :bulb: Vous pouvez réalisez les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_table1) pour vous aider à manipuler les tableaux
+> :bulb: Tu peux réalisez les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_table1) pour t'aider à manipuler les tableaux
 
 ## Exercice 3
 
-Réalisez les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes1)
+Réalise les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_classes1)
 
 ## Exercice 4
 
-Réalisez les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_elements1)
+Réalise les exercices sur [cette page](https://www.w3schools.com/css/exercise.asp?filename=exercise_pseudo_elements1)
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
