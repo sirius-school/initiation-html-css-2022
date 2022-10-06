@@ -1,9 +1,5 @@
 # Exercices Pseudo-sélecteurs
 
-## Exercice 0
-
-Reprenez vos exercices sur les sélecteurs avec [CSS Diner](https://flukeout.github.io/). Essayez d'accomplir les niveaux 15 à 24 si ce n'est pas déjà fait. Il y a des sélecteurs que l'on a pas vu, essayer de résoudre les niveaux en lisant la théorie.
-
 ## :memo: Objectifs
 
 - Utiliser les pseudos sélecteurs
@@ -15,6 +11,10 @@ Reprenez vos exercices sur les sélecteurs avec [CSS Diner](https://flukeout.git
 - Respect des consignes
 - La syntaxe est correcte
 - L'indentation est correcte
+
+## Exercice 0
+
+Reprenez vos exercices sur les sélecteurs avec [CSS Diner](https://flukeout.github.io/). Essayez d'accomplir les niveaux 15 à 24 si ce n'est pas déjà fait. Il y a des sélecteurs que l'on a pas vu, essayer de résoudre les niveaux en lisant la théorie.
 
 ## Exercice 1
 
