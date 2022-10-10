@@ -1,10 +1,28 @@
 # Exercices Flexbox
 
-## Allez on se détend avec un petit jeu
+## :memo: Objectifs
+
+- Comprendre et retenir les principes de Flexbox
+- Suivre des consignes précises
+- Apprendre à se débrouiller en allant lire la théorie vue ou la documentation
+
+## :white_check_mark: Evaluations
+
+- Respect des consignes
+- La syntaxe est correcte
+- L'indentation est correcte
+
+## Flexbox Froggy
 
 Essayez de compléter un max d'exercice sur ce petit jeu, ça vous aidera a encore mieux visualiser les différentes propriétés liés à Flexbox.
 
 [Flexbox Froggy](https://flexboxfroggy.com/#fr)
+
+## Flexbox Zombies
+
+Voici encore un jeu que tu peux compléter. Cette fois-ci ce ne sont pas des grenouilles mais des zombies qu'il va falloir aligner pour les dégomer!
+
+[Flexbox Zombies](https://mastery.games/flexboxzombies/)
 
 ## Maquette Discord (optionnel)
 
