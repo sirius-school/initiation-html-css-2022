@@ -29,6 +29,7 @@ Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pou
 18. [Théorie - Flexbox](18-theorie-flexbox.md)
 19. [Exercices - Flexbox](19-exercices-flexbox.md)
 20. [Exercice - Maquette Flexbox - Feel The Music](20-exercice-css-maquette-feelthemusic.md)
+21. [Exercice - Maquette Flexbox - Head Hunter](21-exercice-css-maquette-head-hunter.md)
 
 ## La règle d'OR
 
