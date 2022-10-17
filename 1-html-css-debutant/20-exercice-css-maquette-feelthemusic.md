@@ -5,6 +5,18 @@ Il est temps de mettre en pratique toutes tes connaissances. Tu vas devoir réal
 
 Ton designer t'as envoyé le design en screenshot. À toi de le reproduire en HTML le plus fidèlement possible.
 
+## :memo: Objectifs
+
+- Réaliser une maquette sans HTML et CSS de base.
+- Suivre des consignes précises.
+- Apprendre à se débrouiller en allant lire la théorie vue ou la documentation.
+
+## :white_check_mark: Evaluations
+
+- Respect des consignes.
+- La syntaxe est correcte.
+- L'indentation est correcte.
+
 ## Consignes
 
 - Sois le plus fidèle possible au modèle
@@ -42,7 +54,7 @@ Ton designer t'as envoyé le design en screenshot. À toi de le reproduire en HT
 
 ## Les ressources
 
-Tu peux retrouver les images et logos nécessaire à la réalisation de cet exercice par ici:
+Tu peux retrouver les images et logos nécessaires à la réalisation de cet exercice par ici:
 
 [https://github.com/sirius-school/initiation-html-css-2022/tree/main/1-html-css-debutant/assets/feelthemusic](https://github.com/sirius-school/initiation-html-css-2022/tree/main/1-html-css-debutant/assets/feelthemusic)
 
