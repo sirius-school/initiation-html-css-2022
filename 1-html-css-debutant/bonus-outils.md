@@ -14,6 +14,7 @@ Voici une collection de liens qui pourront t'aider pendant et après ta formatio
 - [Les sites outils](#les-sites-outils)
   - [Editeur de code](#editeur-de-code)
   - [Couleurs](#couleurs)
+  - [Générateur CSS/Image/SVG](#générateur-cssimagesvg)
 
 ## La documentation et les cheatsheet
 
@@ -58,3 +59,9 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Roue chromatique](https://itpastorn.github.io/webbteknik/future-stuff/svg/color-wheel.html): Pour retrouver directement une couleur en HSL
 - [Coolors](https://coolors.co/): Choix de palette de couleurs
 - [Adobe Color](https://color.adobe.com/fr/create/): Choix de couleurs
+
+### Générateur CSS/Image/SVG
+
+- [Hakai Generator](https://app.haikei.app/): Pleins de générateur de formes ou gradient en SVG/PNG
+- [Gradient Generator](https://cssgradient.io/)
+- [Fancy Border Radius generator](https://9elements.github.io/fancy-border-radius/)
