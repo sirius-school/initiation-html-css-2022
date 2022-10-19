@@ -65,3 +65,4 @@ Voici les liens à retenir pour retrouver toutes les explications nécessaires �
 - [Hakai Generator](https://app.haikei.app/): Pleins de générateur de formes ou gradient en SVG/PNG
 - [Gradient Generator](https://cssgradient.io/)
 - [Fancy Border Radius generator](https://9elements.github.io/fancy-border-radius/)
+- [Clip Path](https://bennettfeely.com/clippy/)
