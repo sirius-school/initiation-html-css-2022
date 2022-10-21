@@ -1,13 +1,8 @@
 <!-- omit in toc -->
-
 # 10 Bonnes pratiques en Responsive Design
 
 <!-- omit in toc -->
-
 ## Table des matières
-
-- [10 Bonnes pratiques en Responsive Design](#10-bonnes-pratiques-en-responsive-design)
-  - [Table des matières](#table-des-matières)
   - [1. Pensez petit... et grand](#1-pensez-petit-et-grand)
   - [2. Pensez au contexte](#2-pensez-au-contexte)
   - [3. Réduire intelligemment le contenu](#3-réduire-intelligemment-le-contenu)
