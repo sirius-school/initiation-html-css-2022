@@ -149,7 +149,7 @@ C'est aussi plus simple à gérer en cas de changement de couleur. Exemple:
 Et pour allez encore plus loins on pourrait utiliser les variables CSS.
 
 ```css
-::root{--primary: 0}
+:root{--primary: 0}
 .button{background-color: hsl(var(--primary), 100%, 50%)}
 .button:hover{background-color: hsl(var(--primary), 100%, 30%)}
 ```

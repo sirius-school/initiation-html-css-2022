@@ -3,9 +3,9 @@
 
 Voici un petit tuto sur comment utiliser Font Awesome dans vos projets.
 
-Font Awesome est une police de caractère composé de plus de 7800 icônes. Il y en a des gratuites et des payantes.
+Font Awesome est une police de caractère composé de plus de 19,287 Pro Icons dont **2,016 Free Icons**.
 
-De plus l'intérêt est de pouvoir utiliser vos icônes comme une simple police de caractère, toutes les propriétés applicable à du texte le sont aussi sur vos icônes (color, font-size,...)
+De plus l'intérêt est de pouvoir utiliser vos icônes comme une simple police de caractère, toutes les propriétés applicable à du texte le sont aussi sur vos icônes (color, font-size, animation/transform...)
 
 <!-- omit in toc -->
 ## Table des matières
@@ -13,19 +13,19 @@ De plus l'intérêt est de pouvoir utiliser vos icônes comme une simple police 
 - [Mise en place](#mise-en-place)
 - [Utilisation](#utilisation)
   - [HTML](#html)
-  - [Pseudo-element (avancé)](#pseudo-element-avancé)
+  - [Pseudo-element (avancé :fire:)](#pseudo-element-avancé-fire)
+    - [1. Définir le code commun pour toutes les icônes](#1-définir-le-code-commun-pour-toutes-les-icônes)
+    - [2. Faire référence au icônes individuelles.](#2-faire-référence-au-icônes-individuelles)
 
 ## Mise en place
 
-On va importer notre font dans notre fichier `.css`ou `.scss` (sass).
+On va importer notre font dans notre fichier `.css`.
 
 ```css
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 ```
 
 On peut vérifier sur [CDNJS](https://cdnjs.com/libraries/font-awesome) si il y a une nouvelle version disponible.
-
-On pourrait également incorporer le lien vers la police dans nos fichiers `html` mais il faudrait le faire pour chaque page pour ne pas risquer de perdre nos icônes sur certaines pages.
 
 C'est tout ce que l'on a besoin de faire en amont!
 
@@ -35,52 +35,52 @@ C'est tout ce que l'on a besoin de faire en amont!
 
 ### HTML
 
-Il est possible d'utiliser directement une balise HTML pour afficher son icône. Pour cela, rendez-vous dans [la section Icons du site de Font Awesome](https://fontawesome.com/icons) et choisissez votre icône gratuite. Vous pouvez également éffectuer une recherche.
+Il est possible d'utiliser directement une balise HTML pour afficher son icône. Pour cela, rendez-vous dans [la section Icons du site de Font Awesome](https://fontawesome.com/icons) et choisissez votre icône **gratuite**. Vous pouvez également effectuer une recherche.
 
-Une fois votre icône sélectionné cliquez sur la balise `<i>`en haut de l'aperçu de l'icône. Cela copie la balise complète qui est maintenant prête à être intégrée dans votre fichier HTML.
+Une fois votre icône sélectionné cliquez sur la balise `<i>`. Cela copie la balise complète qui est maintenant prête à être intégrée dans votre fichier HTML.
 
 ![fa-icon](img/06/fa-icon.gif)
 
-Cette pratique n'est pas la meilleure, car la balise `<i>`est une ancienne balise HTML qui servait à mettre du texte en italique. Elle est voué à disparaître dans une future version de HTML, du coup toutes vos icônes pourrait ne plus fonctionner du jour au lendemain. Vous pouvez donc remplacer cette balise par une balise `<span>`.
-
 [:arrow_up: Revenir au top](#table-des-matières)
 
-### Pseudo-element (avancé)
+### Pseudo-element (avancé :fire:)
 
-Une autre méthode est l'utilisation du CSS et des pseudo-element. Voici la marche à suivre:
+Une autre méthode est l'utilisation du CSS et des *pseudo-element*. Car peut-être que sur votre projet, changé l'HTML n'est pas possible. Voici la marche à suivre:
 
-1. Créez une classe `icon`et placez-y le code nécessaire à l'affichage de votre icône.
-2. Créez une classe nommé selon votre icône et appliquez le pseudo-sélecteur `::before`.
-3. Dans la propriété `content`de votre `before`placez l'unicode que vous trouvez également au dessus de l'aperçu de l'icône. :exclamation: N'oubliez pas le "backslash" ( \\ ) devant le code en question!
-4. Placez une propriété `font-family`et la valeur `Font Awesome 5 Free` ou `Font Awesome 5 brands` si il s'agit d'icône de marques (Facxeboo, Twitter,...).
+#### 1. Définir le code commun pour toutes les icônes
 
-Voici un exemple de code fonctionnel:
+Préparons du code qui servira à toutes nos icônes. Autant le faire directement pour être tranquille.
 
 ```css
-.icon {
-  display: grid;
-  place-items: center;
-  font-family: "Font Awesome 5 Free"; 
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 900; 
-}
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+```
 
-.brand{
-  font-family: "Font Awesome 5 Brands";
-}
+#### 2. Faire référence au icônes individuelles.
 
-.facebook::before {
-  content: '\f39e';
-  font-size: 1.5em;
+Ici on va réutiliser le même pseudo sélecteur sur notre icône que celui utiliser précédemment, donc **::before**. Dans le content on va mettre le code "unicode" fournit sur la page de l'icône. Et dans la font on va utiliser celle qui correspond au style qu'on a besoin (brand, solid, regular, light ou sharp-solid) que l'on peut également retrouver sur la page de notre icône.
+
+```css
+.gaming::before {
+  font: var(--fa-font-brands);
+  content: "\f392";
 }
+/* 
+  font: var(--fa-font-solid);
+  font: var(--fa-font-regular);
+  font: var(--fa-font-light);
+  font: var(--fa-font-sharp-solid);
+*/
 ```
 
 ```html
-<div class="icon brand facebook"></div>
+  <div class="icon gaming"></div>
 ```
+
+> :bulb: Il y a encore pas mal d'autres configurations possible avec les pseudos-element. Mais nous avons vu ici le nécessaire pour vos sites. Si vous voulez en savoir plus, comme d'habitude, allez lire [:book: la documentation](https://fontawesome.com/docs/web/add-icons/pseudo-elements#css-pseudo-elements-and-duotone)
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
