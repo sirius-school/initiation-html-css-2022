@@ -8,6 +8,7 @@ Bienvenue dans le cours sur l'HTML et le CSS de niveau débutant, on est là pou
 ## Table des matières
 
 - [La boîte à outils de l'intégrateur junior!](bonus-outils.md)
+- [Bonne pratiques](bonus-bonnes-pratiques.md)
 
 1. [Comprendre le WEB, l'HTML et le CSS](01-comprendre-web-html-css.md)
 2. [VSCode](02-vscode.md)

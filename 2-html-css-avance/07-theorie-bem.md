@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 # Méthodologie de nommage
 
-Il existe bon nombres de méthodologie de nommage, elles existent pour simplifier la tâche des développeurs et leurs permettent de s'y retrouver dans le nom de leurs classes. Cela rend également plus facile la collaboration dans une équipe, car tout le monde s'applique à respecter la méthode choisie et ainsi tout est plus claire pour l'ensemble des personnes travaillant sur le code.
+Il existe bon nombres de méthodologie de nommage pour les classes et id, elles existent pour simplifier la tâche des développeurs. Cela rend plus facile la collaboration dans une équipe, car tout le monde s'applique à respecter la méthode choisie et ainsi tout est plus claire pour l'ensemble des personnes travaillant sur le code.
 
 <!-- omit in toc -->
 # Table des matières
@@ -17,7 +17,7 @@ Il existe bon nombres de méthodologie de nommage, elles existent pour simplifie
 
 Bem ou Block Element Modifier est une méthodologie de nommage qui vise à créer des composants réutilisables pour vos classes HTML et vos sélecteurs CSS. L'intérêt réside dans la possibilité de sélectionner un élément bien précis sans devoir toujours utiliser la descendance (ex: sélectionner les enfants du parents), car sur certains projets plus volumineux vous risquez de sélectionner des parties d'une autre page que vous auriez oublié et du coup casser le projet.
 
-L'autre point fort, c'est que quand vous aurez adopter cette méthodologie, vous écrirez vos classes beaucoup plus rapidement et éfficacement et aurez l'habitude de les préparer pour leurs utilisations globale plutôt que par cas. Je m'explique.
+L'autre point fort, c'est que quand vous aurez adopter cette méthodologie, vous écrirez vos classes beaucoup plus rapidement et efficacement et aurez l'habitude de les préparer pour leurs utilisations globale plutôt que par cas. Je m'explique.
 
 - Vous voulez créer un bouton sur votre page. Vous allez créer une classe `button`
 - Sur une deuxième page vous avez encore un bouton mais ce dernier doit être mis en valeur, vous allez créer une classe `active`.
@@ -34,7 +34,7 @@ Il va falloir penser vos éléments autrement, voici un exemple:
 Et bien c'est simple, considérez l'exemple du dessus. On a notre encart qui contient une image et différents liens et textes. Ca s'appel une carte, ça sera notre block, l'élément principal de notre composant, celui qui va contenir tout le reste.
 
 1. On va commencer par créer notre **B**lock avec une `class="card"`.
-2. Ensuite ce block est composé d'**É**léments divers et variés. Chacun d'eux va recevoir une classe qui permet de rapidement d'identifier l'origine de cet élément: `class="card__img"`, `class="card__content"`, `class="card__list"`, `class="card__item"`,...
+2. Ensuite ce block est composé d'**É**léments divers et variés. Chacun d'eux va recevoir une classe qui permet de rapidement identifier l'origine de cet élément: `class="card__img"`, `class="card__content"`, `class="card__list"`, `class="card__item"`,...
 3. Notre `card__item`a besoin d'une classe pour être mis en évidence. C'est donc une classe qui va **M**odifier un élément. On va donc noter `class="card__item--active"`
 
 **Que faut-il retenir?**
