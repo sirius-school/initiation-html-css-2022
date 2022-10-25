@@ -12,6 +12,7 @@ Tailwind est un framework CSS axé sur un côté "utility-first". Pour simplifie
 - [Avantages et inconvénients](#avantages-et-inconvénients)
 - [Installation via CDN](#installation-via-cdn)
 - [Installation via NPM](#installation-via-npm)
+  - [Résumé de la vidéo](#résumé-de-la-vidéo)
 - [LA DOCUMENTATION](#la-documentation)
 - [Plugin VSCode (obligatoire!)](#plugin-vscode-obligatoire)
 
@@ -66,7 +67,49 @@ On va allez au plus simple et insérer directement le lien vers la feuille de st
 
 :exclamation: Ceci est une méthode avancé pour installer Tailwind correctement. Ce n'est recommandé que si vous savez ce que vous faites. Je mets un lien vers une vidéo juste à titre informatif pour les plus curieux.
 
-[:desktop_computer: Le tutorial vidéo pour installer Tailwind via NPM :fr:](https://www.youtube.com/watch?v=tAhppkgg70s&ab_channel=LeDesignerduWeb)
+  [:desktop_computer: Le tutorial vidéo pour installer Tailwind via NPM :fr:](https://www.youtube.com/watch?v=tAhppkgg70s&ab_channel=LeDesignerduWeb)
+
+### Résumé de la vidéo
+
+1. `npm init -y`
+2. `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
+3. `npm install postcss-cli` et `npm install cross-env`
+4. Create `postcss.config.js`
+5. Add these lines:
+   
+```js
+module.exports = {
+  plugins : [
+    require('tailwindcss'),
+    require('autoprefixer')
+  ]
+}
+```
+
+6. Create a `input.css` and add:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+7. Create `index.html` and link `output.css`
+8. Replace `test` scripts with this one `"build": "postcss build input.css -o output.css"`
+9. Add `"watch": "postcss build input.css -o output.css --watch"`
+10. Add `"prod": "cross-env NODE_ENV=production postcss input.css -o output.css"`
+11. `npm run build`
+12. Create `tailwind.config.js` and add these:
+
+```js
+module.exports = {
+  purge:['./*.html'],
+  theme: {
+    extend: {
+    }
+  }
+}
+```
 
 [:arrow_up: Revenir au top](#table-des-matières)
 

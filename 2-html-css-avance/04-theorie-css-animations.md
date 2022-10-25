@@ -4,6 +4,8 @@
 
 Les animations CSS permettent d'animer n'importe quel élément sur votre page web. Elles suppriment aussi le besoin d'utiliser du JavaScript ou du JQuerry. Elles sont facile à utiliser une fois qu'on a pris le pas.
 
+Regarde [cette animation](https://codepen.io/miocene/pen/mjLPVp), ça donne envie, n'est-ce pas? Et bien on va voir un petit peux les techniques employés dans ce genre d'animation. On ira pas aussi loin mais si ça te plaît, tu peux toi même t'entrainer à faire ce genre d'animation.
+
 <!-- omit in toc -->
 
 ## Table des matières
