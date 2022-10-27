@@ -109,7 +109,7 @@ L'exemple ci-dessus peut devenir ceci:
 Lorsque tu crée tes sélecteurs essaye de ne pas être trop précis non plus. Si ton sélecteur fait plus de 3 éléments et que ce n'est pas possible de faire autrement, c'est probablement qu'il y a un soucis dans ton HTML.
 
 ```css
-body header nav ul li {
+body > header > nav > ul > li {
   /* code css */
 }
 ```
