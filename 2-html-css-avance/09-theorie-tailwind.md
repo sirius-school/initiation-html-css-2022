@@ -28,7 +28,7 @@ Tailwind est finalement qu'une simple feuille de style css comme vous en avez d�
 
 ![utility-not](img/09/utility.png)
 
-Il est possible de le configurer pour qu'il génère la feuille de style avec vos propres codes couleurs ou vos propres fonts. 
+Tailwind possède un "style" propre avec des valeurs communes. Il est tout à fait possible de le configurer pour qu'il génère la feuille de style avec vos propres codes couleurs ou vos propres fonts.
 
 La feuille de style fournie à la base est également remplie de code inutile et rallonge le temps de chargement de votre style. Il est donc possible de purger la feuille de tout bout de code non utilisés dans votre projet.
 
@@ -36,7 +36,7 @@ Bref, Tailwind, c'est le bien!
 
 ## Avantages et inconvénients
 
-:white_check_mark: L'**avantage** d'utiliser un framework CSS est la possibilité de rapidement mettre en page son site sans devoir écrire des règles et sélecteurs CSS. Il suffit de connaître le nom des classes utilisées par Tailwind pour les appliquer à nos éléments CSS.
+:white_check_mark: L'**avantage** d'utiliser un framework CSS est la possibilité de rapidement mettre en page son site sans devoir écrire des règles et sélecteurs CSS. Il suffit de connaître le nom des classes utilisées par Tailwind pour les appliquer à nos éléments HTML.
 
 :x: Les **inconvénients** principaux sont que du coup on a des classes à rallonges et des répétitions. Ces dernières peuvent être évitées par l'utilisation d'un framework JS (React, Vue,...) mais ce n'est pas le but de ce cours.
 
