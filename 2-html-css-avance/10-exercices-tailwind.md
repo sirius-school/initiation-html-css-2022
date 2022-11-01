@@ -23,14 +23,7 @@ Je vais te guider pas à pas.
 
 ## Mise en place
 
-1. Crée donc une énième page `html` avec pour nom: `tailwind.html`
-2. Copie-colle le code suivant dans ta balise `<head>` pour intégrer la feuille de style CSS Tailwind par défaut.
-
-```html
-<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-```
-
-3. Maintenant suit le pas à pas pour réaliser ta première page avec Tailwind
+Utilise la méthode de l'[Installation via Tailwind Play CDN](./09-theorie-tailwind.md#installation-via-tailwind-play-cdn) ou [Installation via Tailwind CLI (recommandé)](./09-theorie-tailwind.md#installation-via-tailwind-cli-recommandé) selon tes préférences
 
 ## Concept de base
 
