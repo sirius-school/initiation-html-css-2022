@@ -104,8 +104,6 @@ Il automatise toute la gestion des dépendances et des paquets des projets JavaS
 
 > Article complet sur [welovedevs.com](https://welovedevs.com/fr/articles/npm/)
 
-  [:desktop_computer: Un tutoriel vidéo pour installer Tailwind via NPM :fr:](https://www.youtube.com/watch?v=tAhppkgg70s&ab_channel=LeDesignerduWeb)
-
 [:arrow_up: Revenir au top](#table-des-matières)
 
 ### Revenons à la configuration
