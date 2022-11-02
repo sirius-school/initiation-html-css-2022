@@ -18,7 +18,7 @@ Tailwind est un framework CSS axé sur un côté "utility-first". Pour simplifie
   - [Revenons à la configuration](#revenons-à-la-configuration)
 - [La Documentation](#la-documentation)
 - [Plugin VSCode](#plugin-vscode)
-- [Modifier la config de Tailwind](#modifier-la-config-de-tailwind)
+- [Modifier la config de Tailwind (:fire: Avancé)](#modifier-la-config-de-tailwind-fire-avancé)
 
 ## Principe
 
@@ -185,8 +185,69 @@ Tailwind fournit une extension pour VSCode qui est juste parfaite. Elle vous aut
 
 [:arrow_up: Revenir au top](#table-des-matières)
 
-## Modifier la config de Tailwind
+## Modifier la config de Tailwind (:fire: Avancé)
 
-:hammer: *Work in progress. Tu peux allez voir la documentation si t'es pressé ou attendre que le cours soit mis à jour. Si tu as lu ceci: bonne nuit à toi* :grin:
+Alors, maintenant que tu as un peu fait joujou avec Tailwind, voici quelques explications supplémentaires sur comment personnaliser un peu le thème par défaut pour le faire correspondre à nos besoin.
+
+Tu te souviens, on a été dans le fichier `tailwind.config.js` pour demander à Tailwind de surveiller certains dossiers et/ou fichiers. Et bien c'est également là où tu vas pouvoir ajouter des couleurs ou tailles supplémentaires.
+
+Pour ce faire, rendons-nous [dans la doc](https://tailwindcss.com/docs/theme), comme toujours.
+
+Dans notre fichier, nous avons affaire à un objet qui contient toute la config de Tailwind. On va ajouter quelques couleurs. Cela se passe dans la partie `theme`. :exclamation: Attention, il est super-hyper-mega-important de faire attention aux accolades ( {} ). Assures-toi qu'elle soient toujours bien ouvertes et fermées correctement!! Sinon ça va mal se passer.
+
+```js
+module.exports = {
+  theme: {
+    colors: {
+      'blue': '#1fb6ff',
+      'purple': '#7e5bef',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'yellow': '#ffc82c',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+    },
+  }
+}
+```
+
+Dans cet exemple, on remarque que dans la partie `colors` on a des nouveaux mot-clés (blue, purple,...) avec à chaque fois une valeur hexadécimal. Et bien ceci, ça sera vos nouvelles couleurs.
+
+```html
+<div class="bg-red-500">
+  <p class="text-blue">
+</div>
+```
+
+Ma classe par défaut ici `bg-red-500` me permettait d'avoir la couleur rouge par défaut de Tailwind en arrière-plan de ma div. Mais bizarrement maintenant que j'ai ajouté les nouvelles couleurs, cela ne fonctionne plus.
+
+C'est normal, car ici on a littéralement remplacé **TOUTES** les couleurs de Tailwind, par les nôtres. Maintenant accessible comme n'importe quelle couleur auparavant avec les nouveaux mots-clés.
+
+Mais du coup, est-ce possible d'ajouter plutôt que de remplacer? Bien sûr jeune apprentis. Cela s'appel `extend`
+
+```js
+theme: {
+    extend: {
+      colors: {
+        'blue': '#1fb6ff',
+        'purple': '#7e5bef',
+        'pink': '#ff49db',
+        'orange': '#ff7849',
+        'green': '#13ce66',
+        'yellow': '#ffc82c',
+        'gray-dark': '#273444',
+        'gray': '#8492a6',
+        'gray-light': '#d3dce6',
+    },
+  },
+},
+```
+
+Dans l'exemple ci-dessus, on ne remplace plus, mais on "étend" notre thème avec de nouvelles valeurs! Plutôt pratique.
+
+Cela est possible pour toutes les valeurs par défaut de Tailwind. Donc si tu veux en savoir plus, je t'inviterai donc à.......... Allez lire [la documentation](https://tailwindcss.com/docs/theme)
+
 
 [:rewind: Retour au sommaire du cours](./README.md#table-des-matières)
