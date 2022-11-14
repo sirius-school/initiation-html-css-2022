@@ -24,7 +24,8 @@ Nous allons allez un petit peu plus loin et voir certains concepts clés utilis�
 ## Bonus
 
 - [SASS](bonus-sass.md)
-- [Bootstrap](bonus-bootstrap.md)
+- [CSS Grid](bonus-grid.md)
+- [Bootstrap (obsolete)](bonus-bootstrap.md)
 
 ## La règle d'OR
 
