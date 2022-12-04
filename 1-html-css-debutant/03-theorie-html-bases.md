@@ -22,14 +22,16 @@ Voyons ensemble de quoi est constitué une page HTML typique. Ensuite on verra v
 ## Le squelette d'une page HTML
 
 ```html
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title> Coucou je suis une page html</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <p> Salut je suis le contenu de la page</p>
+  
 </body>
 </html>
 ```
