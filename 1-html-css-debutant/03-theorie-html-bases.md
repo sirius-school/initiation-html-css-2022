@@ -65,7 +65,7 @@ On commence toujours par la balise entrante, puis le contenu, ensuite on referme
 Certaines balises peuvent se voir attribuer des attributs. Ils permettent de préciser certains paramètres (par exemple: l'adresse d'un lien, la source d'une image, le style d'une div,...)
 
 ```html
-<img src="mon lien"></img>
+<img src="mon lien"/>
 ```
 
 > Ici `src` est l'attribut et `mon lien` la valeur. Nous verrons des balises plus précisément un peu plus loin.
